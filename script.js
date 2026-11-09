@@ -51,7 +51,7 @@ function createAtelier(atelier){
 }
 
 for (const atelier of config.ateliers){
-  listAtelier.textContent = 'Achraf'
+
   if (atelier.places > 0){
     listAtelier.appendChild(createAtelier(atelier));
     console.log(listPlaces);
